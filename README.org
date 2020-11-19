@@ -1,0 +1,12 @@
+#+TITLE: configuration.asd
+
+* CL Web App Configuration
+One place to manage configuration. Initially this supports the
+following methods of specifying configuration parameters:-
+
+1. Solaris SMF properties
+2. Environment variables
+3. Manual configuration in CL code
+
+In future it would be good to add, for example, Hashicorp consul as a
+configuration source. 
